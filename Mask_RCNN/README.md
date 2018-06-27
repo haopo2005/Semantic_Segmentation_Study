@@ -23,7 +23,7 @@ unzip gtFine_trainvaltest.zip
 cd /home/jst/share/data/gtFine/train  
 find . -name "*.json" | xargs  -i mv  {} /home/jst/share/data/json/train/  
 
-cd /home/jst/share/data/leftImg8bit/train
+cd /home/jst/share/data/leftImg8bit/train   
 find . -name "*.png" | xargs  -i mv  {} /home/jst/share/data/png/train/  
 
 #for val set, run shell command:  
