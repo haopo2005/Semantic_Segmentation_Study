@@ -1,7 +1,10 @@
 this repo will help you to train the maskrcnn to solve both pixel-level and instance-level semantic segmentation task based on cityspace dataset
 
 all the trained model and logs can be downloaded from baiduyun
-¡¥Ω”£∫https://pan.baidu.com/s/1syHIsfr4WqQZY_lzMxP5ng √‹¬Î£∫0b7v
+link:
+https://pan.baidu.com/s/1syHIsfr4WqQZY_lzMxP5ng
+password:
+0b7v
 
 ==================================================================================
 #how to train Maskrcnn based on cityspace(only Fine annotations)?
