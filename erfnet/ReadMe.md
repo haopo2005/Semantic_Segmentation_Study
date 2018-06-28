@@ -1,5 +1,10 @@
 this repo will help you to train the erfnet to solve  pixel-level  semantic segmentation task based on cityspace dataset  
 all the dependency follows the requirements.txt  
+all the logs and model can be downloaded from baiduyun  
+link:  
+https://pan.baidu.com/s/1ui5VP0zol5uCVrat5r9Bog  
+password:  
+du23  
 
 ==================================================================  
 #how to train erfnet based on cityspace(only Fine annotations)?  
