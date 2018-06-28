@@ -11,7 +11,7 @@ http://download.tensorflow.org/models/deeplabv3_cityscapes_train_2018_02_06.tar.
 #2.download dataset from cityspace, and gather the test png path into test.list  
 find path -name "*.png" > test.list  
 
-#3.run the inference
+#3.run the inference  
 python3 deeplab_inference.py test.list  
 
 you will get the result png files under /home/jst/share/deeplab_xception/  
