@@ -22,15 +22,15 @@ python jst_erf_data.py /path/to/png/file/
 
 # 4. rearrange the file as the following folder structure(img->origin png files, lbl->trainId png file)  
 data  
-        train:  
-                lbl  
-                img  
-        val:   
-                lbl  
-                img  
-        test:  
-                lbl  
-                img  
+--------train:  
+----------------lbl  
+----------------img  
+--------val:   
+----------------lbl  
+----------------img  
+--------test:  
+----------------lbl  
+----------------img  
 
 # 5.run the training script  
 [cnn_train.py -d data.yaml -n net.yaml -t train.yaml -l /tmp/path/to/log/ -p /tmp/path/to/pretrained]  
