@@ -72,7 +72,27 @@ color_map: # bgr
   170: [230,0,0]
   180: [32,11,119]
   255: [0,0,0]
-
+label_idmap:
+  0: 7
+  10: 8
+  20: 11
+  30: 12
+  40: 13
+  50: 17
+  60: 19
+  70: 20
+  80: 21
+  90: 22
+  100: 23
+  110: 24
+  120: 25
+  130: 26
+  140: 27
+  150: 28
+  160: 31
+  170: 32
+  180: 33
+  255: 0
 # put this in cityscapesScripts/cityScapesscripts/helpers/labels.py:
 #   labels = [
 #     #       name                     id    trainId   category            catId     hasInstances   ignoreInEval   color
