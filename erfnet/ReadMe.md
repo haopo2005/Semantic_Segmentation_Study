@@ -44,6 +44,7 @@ find /home/jst/share/project/tensorflow/Mask_RCNN/data/leftImg8bit/test/ -name "
 
 # 2. run the inference script  
 [cnn_use.py -l /tmp/path/to/log/ -p /tmp/path/to/pretrained -i /path/to/image]  
-python3 cnn_use.py  -l logs -p logs -i /home/jst/share/project/tensorflow/Mask_RCNN-master/data/val.list  
+mkdir temp_logs  
+python3 cnn_use.py  -l temp_logs -p logs -i /home/jst/share/project/tensorflow/Mask_RCNN-master/data/test.list  
 
-you will get the predicted mask png file under logs folder
+you will get the predicted mask png file under temp_logs folder
