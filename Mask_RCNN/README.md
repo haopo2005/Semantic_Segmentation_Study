@@ -49,7 +49,7 @@ python3 cityspace.py train --dataset /home/jst/share/project/tensorflow/Mask_RCN
 - BACKBONE is resnet 101
 - 20 CLASS  
 - After hours of training, the loss decreases slowly and you will get mask_rcnn_cityspace_XXXX.h5 under your log folder.  
-
+![](loss_tensorboard.PNG)
 
 # How to run the inference to solve the pixel-level task  
 ## Get all the test image files
