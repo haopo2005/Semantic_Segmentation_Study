@@ -45,8 +45,9 @@ data
 python3 cnn_train.py -d cfg/cityscapes/data.yaml -n cfg/cityscapes/net_bonnet.yaml -t cfg/cityscapes/train_bonnet.yaml -l logs/  
 ```
 
-- after hours of training, you will get the trained model under logs/iou folder  
- 
+- after hours of training, you will get the trained model under logs/iou folder, the training loss is as below:    
+![1](tensorboard_iou.PNG)  
+![2](tensorboard_loss.PNG)
 # How to run the erfnet inference model?  
 ## Get all the test image file
 ```bash
